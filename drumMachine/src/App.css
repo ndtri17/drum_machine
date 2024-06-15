@@ -1,0 +1,32 @@
+.container { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.whole-drum { 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 2rem;
+    column-gap: 2rem;
+    margin: 0 auto;
+}
+
+.drum-pad { 
+    width: clamp(6rem,3vh,10rem);
+    height: clamp(7rem,3vh,10rem);
+}
+
+span { 
+    display: flex;
+    width: 100px;
+    height: 30px;
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+}
+
+
